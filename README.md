@@ -2,7 +2,7 @@
 
 # ``` PIZZERIA : Your Slice, Your Way! ```
 
-Welcome to PizzaByte, where every byte of pizza is crafted to perfection just for you! 🍕
+Welcome to PIZZERIA, where every byte of pizza is crafted to perfection just for you! 🍕
 
 PizzaByte is your go-to Flutter app for indulging in the world of delectable pizzas with a seamless payment gateway integration. Whether you crave classic Margheritas or adventurous BBQ chicken toppings, PizzaByte has it all. Dive into a world of flavors, customize your pizzas, track your orders in real-time, and pay securely—all at your fingertips.
 
