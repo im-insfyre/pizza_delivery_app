@@ -31,7 +31,6 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.cart)),
           IconButton(
               onPressed: () {
                 context.read<SignInBloc>().add(SignOutRequired());
