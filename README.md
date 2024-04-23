@@ -82,8 +82,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 
-## Credits
-
-This app was created by [Your Name].
 
 
