@@ -1,6 +1,6 @@
 <img src="img/img11.jpg" alt="image" >
 
-# ``` PizzaByte: Your Slice, Your Way! ```
+# ``` Pizzeria: Your Slice, Your Way! ```
 
 Welcome to PizzaByte, where every byte of pizza is crafted to perfection just for you! 🍕
 
