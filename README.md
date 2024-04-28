@@ -1,12 +1,6 @@
 <img src="img/img11.jpg" alt="image" >
 
-# ``` PIZZERIA : Your Slice, Your Way! ```
-
-Welcome to PIZZERIA, where every byte of pizza is crafted to perfection just for you! 🍕
-
-PizzaByte is your go-to Flutter app for indulging in the world of delectable pizzas with a seamless payment gateway integration. Whether you crave classic Margheritas or adventurous BBQ chicken toppings, PizzaByte has it all. Dive into a world of flavors, customize your pizzas, track your orders in real-time, and pay securely—all at your fingertips.
-
-> Join us and elevate your pizza experience with PizzaByte. Your slice, your way—every byte counts!
+# ``` PIZZERIA 
 
 ## Features
 
@@ -65,22 +59,6 @@ flutter pub get
 flutter run
 ```
 
-
-## Configuration
-
-1. Add your Firebase configuration file (`google-services.json`) to the `android/app` directory for Android or `ios/Runner` directory for iOS.
-2. Configure payment gateway credentials in the app according to your chosen payment provider.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
 
 
 
