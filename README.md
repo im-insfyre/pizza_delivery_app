@@ -1,6 +1,6 @@
 <img src="img/img11.jpg" alt="image" >
 
-# ``` PIZZERIA 
+# PIZZERIA 
 
 ## Features
 
