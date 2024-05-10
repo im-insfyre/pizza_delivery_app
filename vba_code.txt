@@ -1,0 +1,100 @@
+Sub CreatePizzaOrderingPresentation()
+    Dim pptApp As Object
+    Dim pptPres As Object
+    Dim slideIndex As Integer
+    
+    ' Create a new instance of PowerPoint application
+    Set pptApp = CreateObject("PowerPoint.Application")
+    pptApp.Visible = True ' Set to True for debugging purposes
+    
+    ' Create a new presentation
+    Set pptPres = pptApp.Presentations.Add
+    
+    ' Slide 1: Title Slide
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutTitle)
+        .Shapes(1).TextFrame.TextRange.Text = "Revolutionizing Pizza Ordering with FinTech"
+        .Shapes(2).TextFrame.TextRange.Text = "Enhancing the Pizza Ordering Experience with Flutter and Razorpay API"
+        ' Add your company logo here
+    End With
+    
+    ' Slide 2: Introduction
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "Introduction to the project"
+        .Shapes(2).TextFrame.TextRange.Text = "Brief overview of the Pizza Ordering App" & vbCrLf & _
+                                                "Mention the technologies used (Flutter, Razorpay API)" & vbCrLf & _
+                                                "Market analysis showcasing the growing trend of online food delivery"
+    End With
+    
+    ' Slide 3: Current Features
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "Current Features"
+        .Shapes(2).TextFrame.TextRange.Text = "Overview of current features:" & vbCrLf & _
+                                                "Selecting pizzas" & vbCrLf & _
+                                                "Making payments using Razorpay API" & vbCrLf & vbCrLf & _
+                                                "Benefits of current features:" & vbCrLf & _
+                                                "Seamless ordering process" & vbCrLf & _
+                                                "Secure payment transactions"
+    End With
+    
+    ' Slide 4: Future Scope
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "Future Scope"
+        .Shapes(2).TextFrame.TextRange.Text = "Introduction to future scope:" & vbCrLf & _
+                                                "Adding delivery tracking option" & vbCrLf & _
+                                                "Integration of AI to improve user service" & vbCrLf & vbCrLf & _
+                                                "Benefits of adding delivery tracking:" & vbCrLf & _
+                                                "Enhanced user experience" & vbCrLf & _
+                                                "Increased transparency in delivery process" & vbCrLf & _
+                                                "Reduced customer anxiety about delivery status"
+    End With
+    
+    ' Slide 5: Delivery Tracking Process
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "Delivery Tracking Process"
+        .Shapes(2).TextFrame.TextRange.Text = "Explanation of how delivery tracking will work:" & vbCrLf & _
+                                                "Integration with third-party delivery APIs" & vbCrLf & _
+                                                "Real-time tracking updates for users" & vbCrLf & _
+                                                "Estimated delivery time display"
+    End With
+    
+    ' Slide 6: Technical Implementation
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "Technical Implementation"
+        .Shapes(2).TextFrame.TextRange.Text = "Technical details of implementing delivery tracking:" & vbCrLf & _
+                                                "Integration with Flutter for real-time updates" & vbCrLf & _
+                                                "Utilization of GPS technology for accurate tracking" & vbCrLf & _
+                                                "Backend system for managing delivery data"
+    End With
+    
+    ' Slide 7: User Experience Enhancement
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "User Experience Enhancement"
+        .Shapes(2).TextFrame.TextRange.Text = "How delivery tracking enhances user experience:" & vbCrLf & _
+                                                "Visual representation of delivery progress" & vbCrLf & _
+                                                "Notifications for key delivery milestones" & vbCrLf & _
+                                                "Option for user feedback on delivery experience" & vbCrLf & vbCrLf & _
+                                                "Comparison with competitors and how the addition of delivery tracking sets your app apart"
+    End With
+    
+    ' Slide 8: Conclusion
+    slideIndex = slideIndex + 1
+    With pptPres.Slides.Add(slideIndex, ppLayoutText)
+        .Shapes(1).TextFrame.TextRange.Text = "Conclusion"
+        .Shapes(2).TextFrame.TextRange.Text = "Recap of project objectives and achievements" & vbCrLf & _
+                                                "Invitation for feedback and suggestions" & vbCrLf & _
+                                                "Contact information for further inquiries" & vbCrLf & _
+                                                "Plans for marketing and promotion to attract more users to the app" & vbCrLf & _
+                                                "Potential partnerships with local pizza chains or delivery services for expanded reach"
+    End With
+    
+    ' Clean up
+    Set pptPres = Nothing
+    Set pptApp = Nothing
+End Sub
